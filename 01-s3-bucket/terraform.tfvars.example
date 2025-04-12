@@ -1,0 +1,6 @@
+aws_region        = "us-east-1"
+bucket_name       = "my-terraform-learning-bucket-12345" # Must be globally unique
+environment       = "dev"
+enable_versioning = true
+enable_bucket_policy = false
+allowed_account_ids = ["123456789012"] # Replace with your AWS account ID

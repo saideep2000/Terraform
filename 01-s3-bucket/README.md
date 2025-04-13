@@ -1,10 +1,3 @@
-
-1. **Deploying an S3 bucket**
-   - Create a simple storage bucket
-   - Configure basic bucket properties
-   - Apply bucket policies
-
-
 # 01 - S3 Bucket Deployment
 
 This is the first milestone in the Terraform learning path. In this project, you will:
@@ -12,13 +5,6 @@ This is the first milestone in the Terraform learning path. In this project, you
 - Configure basic bucket properties including versioning and encryption
 - Apply bucket policies to control access
 
-## Learning Objectives
-
-- Learn Terraform's basic syntax and structure
-- Understand AWS provider configuration
-- Create and manage S3 resources with Terraform
-- Work with variables and outputs
-- Manage access control for cloud resources
 
 ## Files
 
@@ -70,3 +56,6 @@ Once you're comfortable with the basic deployment, try these enhancements:
 3. Configure CORS settings for web access
 4. Create multiple buckets with different configurations using a single Terraform configuration
 
+git add .
+git commit -m "fixes #1: Done with the first milestone"
+git push

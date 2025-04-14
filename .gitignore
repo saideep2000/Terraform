@@ -1,0 +1,4 @@
+# .pem files
+*.pem
+
+*my-terraform-key-pair.pem

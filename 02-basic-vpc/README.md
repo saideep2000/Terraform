@@ -13,11 +13,6 @@ This is the second milestone in the Terraform learning path. In this project, yo
 - Learn to use Terraform's count and iteration for creating multiple similar resources
 - Understand the relationship between VPCs, subnets, and routing
 
-## Prerequisites
-
-1. [Terraform](https://www.terraform.io/downloads.html) installed (v1.0.0+)
-2. AWS CLI installed and configured with valid credentials
-3. AWS account with permissions to create VPC resources
 
 ## Getting Started
 

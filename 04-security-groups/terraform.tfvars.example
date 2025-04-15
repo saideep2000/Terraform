@@ -1,0 +1,9 @@
+aws_region = "us-east-2"
+project_name = "terraform-learning"
+environment = "dev"
+vpc_cidr = "10.0.0.0/16"
+public_subnet_cidr = "10.0.1.0/24"
+availability_zone = "us-east-2a"
+ssh_allowed_cidr = ["YOUR_IP_ADDRESS/32"]  # Replace with your IP for secure SSH access
+app_port = 8080
+db_port = 5432

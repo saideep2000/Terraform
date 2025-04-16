@@ -1,0 +1,8 @@
+aws_region = "us-east-2"
+project_name = "terraform-learning"
+environment = "dev"
+aws_account_id = "123456789012"  # Replace with your actual AWS account ID
+assets_bucket_name = "terraform-learning-assets-12345"
+processing_bucket_name = "terraform-learning-processing-12345"
+dynamodb_table_name = "terraform-learning-data"
+sqs_queue_name = "terraform-learning-queue"

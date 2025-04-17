@@ -1,0 +1,31 @@
+aws_region = "us-east-2"
+project_name = "terraform-learning"
+environment = "dev"
+domain_name = "example.com"  # Replace with your actual domain name
+vpc_id = ""                  # Optional: Set to your VPC ID if you want to use private hosted zones
+
+# Basic record IPs
+web_server_ip = "192.0.2.10"  # Replace with your actual web server IP
+db_server_ip = "192.0.2.20"   # Replace with your actual database server IP
+
+# Load balancer info for alias record (optional)
+# load_balancer_dns_name = "my-load-balancer-1234567890.us-east-2.elb.amazonaws.com"
+# load_balancer_zone_id = "Z3AADJGX6KTTL2"
+
+# Weighted routing IPs
+blue_server_ip = "192.0.2.30"  # Replace with your blue environment IP
+green_server_ip = "192.0.2.40" # Replace with your green environment IP
+
+# Failover routing IPs (optional)
+# primary_server_ip = "192.0.2.50"
+# secondary_server_ip = "192.0.2.60"
+
+# Latency-based routing IPs (optional)
+# us_east_ip = "192.0.2.70"
+# us_west_ip = "192.0.2.80"
+# eu_west_ip = "192.0.2.90"
+
+# Geolocation-based routing IPs (optional)
+# us_geo_ip = "192.0.2.100"
+# eu_geo_ip = "192.0.2.110"
+# default_geo_ip = "192.0.2.120"
